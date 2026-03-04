@@ -1,0 +1,7 @@
+﻿#include <windows.h>
+
+// ID для иконки
+#define IDI_ICON 100
+
+// Иконка
+IDI_ICON ICON "icon.ico"

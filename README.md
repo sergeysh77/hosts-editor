@@ -35,6 +35,8 @@ pacman -S msys2-w32api-headers
 pacman -S msys2-w32api-runtime
 
 
+
+
 Compilation Commands:
 
 windres resource.rc -o resource.o      

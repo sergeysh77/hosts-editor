@@ -26,10 +26,10 @@ Technical Details:
 
 To compile this application in MSYS2, you need to install the following packages:
 
-pacman -S mingw-w64-x86_64-gcc   # GCC compiler for 64-bit Windo
-pacman -S mingw-w64-x86_64-make  # Make utility (provides mingw32-make)
-pacman -S msys2-w32api-headers            # Windows API header files
-pacman -S msys2-w32api-runtime            # Windows API runtime libraries
+pacman -S mingw-w64-x86_64-gcc
+pacman -S mingw-w64-x86_64-make
+pacman -S msys2-w32api-headers         
+pacman -S msys2-w32api-runtime
 
 
 Compilation Commands:

@@ -25,14 +25,14 @@ Technical Details:
 - Resource file for application icon
 
 To compile this application in MSYS2, you need to install the following packages:
-pacman -S mingw-w64-x86_64-gcc           # GCC compiler for 64-bit Windows
-pacman -S mingw-w64-x86_64-make          # Make utility (provides mingw32-make)
+
+pacman -S mingw-w64-x86_64-gcc   # GCC compiler for 64-bit Windo
+pacman -S mingw-w64-x86_64-make  # Make utility (provides mingw32-make)
 pacman -S msys2-w32api-headers            # Windows API header files
 pacman -S msys2-w32api-runtime            # Windows API runtime libraries
 
 
 Compilation Commands:
 
-windres resource.rc -o resource.o       # Compile the resource file
-
-gcc -o hosts_editor.exe hosts_editor.c resource.o -lcomctl32 -mwindows -municode # Compile the main program and link everything
+windres resource.rc -o resource.o      
+gcc -o hosts_editor.exe hosts_editor.c resource.o -lcomctl32 -mwindows -municode

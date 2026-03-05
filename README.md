@@ -32,5 +32,7 @@ pacman -S msys2-w32api-runtime            # Windows API runtime libraries
 
 
 Compilation Commands:
+
 windres resource.rc -o resource.o       # Compile the resource file
+
 gcc -o hosts_editor.exe hosts_editor.c resource.o -lcomctl32 -mwindows -municode # Compile the main program and link everything
